@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 //colors-styles
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 $aqua: #4EEBF3;
 $black: #080E15;
@@ -17,20 +18,20 @@ $extra_warning: #F93628;
 
 //text-styles over 905px
 
-$display: (font-size: 64px, font-family: 'Raleway', sans-serif, line-height: 72px,font-weight: 500);
-$title: (font-size: 48px, font-family: 'Raleway', sans-serif, line-height: 56px,font-weight: 600);
-$body_semibold: (font-size: 24px, font-family: 'Raleway', sans-serif, line-height: 32px,font-weight: 600);
-$body: (font-size: 24px, font-family: 'Raleway', sans-serif, line-height: 32px,font-weight: 400);
-$body_second_semibold: (font-size: 18px, font-family: 'Raleway', sans-serif, line-height: 24px,font-weight: 600);
-$body_second: (font-size: 18px, font-family: 'Raleway', sans-serif, line-height: 24px,font-weight: 400);
-$callout: (font-size: 24px, font-family: 'Raleway', sans-serif, line-height: 32px,font-weight: 300, letter-spacing: 0.3em);
+$display: (font-size: 64px, font-family: 'Raleway', line-height: 72px,font-weight: 500);
+$title: (font-size: 48px, font-family: 'Raleway', line-height: 56px,font-weight: 600);
+$body_semibold: (font-size: 24px, font-family: 'Raleway', line-height: 32px,font-weight: 600);
+$body: (font-size: 24px, font-family: 'Raleway', line-height: 32px,font-weight: 400);
+$body_second_semibold: (font-size: 18px, font-family: 'Raleway', line-height: 24px,font-weight: 600);
+$body_second: (font-size: 18px, font-family: 'Raleway', line-height: 24px,font-weight: 400);
+$callout: (font-size: 24px, font-family: 'Raleway',line-height: 32px,font-weight: 300, letter-spacing: 0.3em);
 
 //text styles under 904px
 
-$display_small: (font-size: 32px, font-family: 'Raleway', sans-serif, line-height: 40px,font-weight: 500);
-$title_small:(font-size: 24px, font-family: 'Raleway', sans-serif, line-height: 32px,font-weight: 600);
-$body_semibold_small: (font-size: 18px, font-family: 'Raleway', sans-serif, line-height: 24px,font-weight: 600);
-$body_small: (font-size: 18px, font-family: 'Raleway', sans-serif, line-height: 24px,font-weight: 400);
-$body_second_semibold_small: (font-size: 16px, font-family: 'Raleway', sans-serif, line-height: 22px,font-weight: 600);
-$body_second_small: (font-size: 16px, font-family: 'Raleway', sans-serif, line-height: 22px,font-weight: 400);
-$callout_small: (font-size: 14px, font-family: 'Raleway', sans-serif, line-height: 16px,font-weight: 300, letter-spacing: 0.3em);
+$display_small: (font-size: 32px, font-family: 'Raleway',line-height: 40px,font-weight: 500);
+$title_small:(font-size: 24px, font-family: 'Raleway',line-height: 32px,font-weight: 600);
+$body_semibold_small: (font-size: 18px, font-family: 'Raleway', line-height: 24px,font-weight: 600);
+$body_small: (font-size: 18px, font-family: 'Raleway', line-height: 24px,font-weight: 400);
+$body_second_semibold_small: (font-size: 16px, font-family: 'Raleway',  line-height: 22px,font-weight: 600);
+$body_second_small: (font-size: 16px, font-family: 'Raleway', line-height: 22px,font-weight: 400);
+$callout_small: (font-size: 14px, font-family: 'Raleway',  line-height: 16px,font-weight: 300, letter-spacing: 0.3em);
