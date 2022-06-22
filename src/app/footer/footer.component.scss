@@ -1,4 +1,11 @@
 .bg {
     background-color: var(--black_second);
 }
- 
+
+.navbar-nav {
+    .item {
+        width: 32px;
+        height: 32px;
+        margin: 8px;
+    }
+}
