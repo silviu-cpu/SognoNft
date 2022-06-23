@@ -1,0 +1,20 @@
+.card {
+    background-color: black;
+    height: 464px;
+    width: 328px !important;
+    .card-text {
+        color: white
+    }
+
+    .card-img-top {
+        height: 296px;
+        width: 296px;
+        margin: 16px;
+    }
+
+    .item {
+        width: 40px;
+        height: 40px;
+    }
+}
+

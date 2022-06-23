@@ -1,0 +1,25 @@
+.team-card {
+    width: 418px !important;
+    height: 184px;
+    background-color: black;
+}
+
+.item {
+    width: 40px ;
+    height: 40px;
+}
+
+.name {
+    font: var(--body_semibold);
+    color: var(--text_primary)
+}
+
+.nft {
+    width: 152px;
+    height: 152px;
+    margin: 16px;
+}
+
+.hover {
+    color: var(--black_second)
+}
