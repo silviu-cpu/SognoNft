@@ -2,11 +2,11 @@
     background-color: black;
     height: 464px;
     width: 328px !important;
-    .card-text {
-        color: white
+    &-text {
+        color: red
     }
 
-    .card-img-top {
+    &-img-top {
         height: 296px;
         width: 296px;
         margin: 16px;
