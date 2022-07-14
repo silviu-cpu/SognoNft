@@ -1,9 +1,9 @@
 .card {
+    @include title-font(48px,200px,500);
     background-color: black;
     height: 464px;
     width: 328px !important;
     &-text {
-        @include title-font;
         color: white;
     }
 
