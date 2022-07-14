@@ -3,7 +3,8 @@
     height: 464px;
     width: 328px !important;
     &-text {
-        color: red
+        @include title-font;
+        color: white;
     }
 
     &-img-top {
